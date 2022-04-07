@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap" rel="stylesheet">
+  <title>Formulário</title>
+</head>
+
+<body>
+  <section class="container"><aside class="titlesection"><div><span>Formulário</span></aside></div>
+  
+    <section class="form">      
+      <form action="https://formsubmit.co/marianamoioli@gmail.com" method="POST" enctype="multipart/form-data">
+
+        <label> Nome
+          <input class="input" type="text" name="Nome" placeholder="Nome completo" autocomplete="on" required />
+        </label>
+
+        <label> E-mail
+          <input class="input" type="email" name="E-mail" placeholder="seuemail@dominio.com" autocomplete="on"
+            required />
+        </label>
+
+        <label> Idade
+          <input class="age" type="number" name="Idade" min="12" name="Idade" placeholder="Idade" required />
+        </label>
+
+        <label> Data de Nascimento
+          <input class="age" type="date" name="DataNascimento" placeholder="dd/mm/aaaa" required />
+        </label>
+
+        <section class="checkbox">
+          <legend class="legend">Onde você possui conta?</legend>
+          <input name="Instagram" type="checkbox"> <label for="radio">Instagram</label>
+          <input name="Facebook" type="checkbox"> <label for="radio">Facebook</labe>
+            <input name="Youtube" type="checkbox"> <label for="radio">Youtube</label>
+        </section>
+
+        <section class="radio">
+          <legend class="legend">Sexo</legend>
+          <input type="radio" name="radio">
+          <label for="radio">Masculino</label>
+          <input type="radio" name="radio" checked>
+          <label for="radio">Feminino</label>
+        </section>
+
+        <legend class="legend">Cor dos Olhos</legend>
+        <input class="eyescolor" name="cor-dos-olhos" type="color" required />
+
+        <legend class="legend">Biografia</legend>
+        <textarea class="textarea" name="bio" placeholder="Fale sobre você!" required></textarea>
+
+        <label>Foto do Perfil
+          <input class="choosephoto" type="file" name="Escolher arquivo" aceppt="images/*" required />
+        </label>
+
+        <label> WhatsApp
+          <input class="input" type="tel" name="Celular" placeholder="Celular ex:(XX) XXXXX-XXXX" autocomplete="on"
+            required />
+        </label>
+
+        <label> Link do Perfil do Facebook
+          <input class="input" type="url" name="PerfilFacebook" placeholder="Endereço do Facebook" autocomplete="on"
+            required />
+        </label>
+
+        <label> Senha
+          <input class="password" type="password" name="Senha" min="6" max="8" placeholder="Digite sua Senha"
+            required />
+        </label>
+
+      <section class="buttom-align">
+        <input class="buttom" type="reset" name="reset" value="Limpar">
+
+        <input class="buttom" type="submit" name="submit" value="Enviar Dados">
+      </section>
+
+    </section>
+    </form>
+  </section>
+</body>
+
+</html>

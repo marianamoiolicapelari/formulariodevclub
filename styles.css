@@ -1,0 +1,167 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.titlesection{
+  margin-top: 30px;
+  position: relative;
+}
+
+.titlesection div {
+  width: 100%;
+  position: absolute;
+  line-height: 20px;
+  height: 20px;
+  top: -40px;
+  left: 0;
+  
+}
+
+.titlesection div span{
+  color:#0075cc;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 20px;
+  background: #ffffff;
+}
+
+.form {
+  border: 4px solid #0075cc;
+  padding: 30px;
+  box-shadow: 5px 5px 10px 2px rgba(135,135,135,0.81);
+}
+
+.register {
+  font-size: 35px;
+  font-weight: bold;
+  color:#0075cc
+}
+
+label {
+  font-size: 20px;
+  color: #0075cc;
+  border-bottom: 5px;
+}
+
+.input {
+  display: block;
+  background: #faf9f9 ;
+  border: 1px solid #dfe4faf1;
+  border-radius: 5px;
+  height: 35px;
+  width: 80%;
+  margin-bottom: 20px;
+  padding-left: 5px;
+  font-size: 18px;
+}
+
+.age {
+  display: block;
+  background: #faf9f9 ;
+  border: 1px solid #dfe4faf1;
+  border-radius: 5px;
+  height: 35px;
+  width: 50%;
+  margin-bottom: 20px;
+  padding-left: 5px;
+  font-size: 20px;
+
+}
+
+.legend {
+  font-size: 20px;
+  color: #0075cc;
+  border-bottom: 5px;
+}
+
+.checkbox {
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.radio {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.eyescolor {
+  display: block;
+  background: #faf9f9 ;
+  border: 1px solid #dfe4faf1;
+  border-radius: 5px;
+  height: 35px;
+  width: 20%;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.textarea {
+  display: block;
+  height: 100px;
+  width: 80%;
+  background: #faf9f9 ;
+  border: 1px solid #dfe4faf1;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding-left: 5px;
+  font-size: 18px;
+}
+
+.choosephoto {
+  display: block;
+  border-radius: 5px;
+  height: 35px;
+  width: 80%;
+  margin-bottom: 15px;
+  padding-left: 5px;
+}
+
+.password {
+  display: block;
+  background: #faf9f9 ;
+  border: 1px solid #dfe4faf1;
+  border-radius: 5px;
+  height: 35px;
+  width: 50%;
+  margin-bottom: 20px;
+  padding-left: 5px;
+  font-size: 18px;
+}
+
+.buttom-align {
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttom {
+  height: 35px;
+  width: 40%;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background: #686967;
+  color: #ffffff;
+  box-shadow: 5px 5px 10px 2px rgba(153, 153, 153, 0.81);
+}
+
+.buttom:hover {
+  background-color: #40bb15;
+  color: #191a19;
+  transform: scale(1.1);
+  transition: 1s all;
+}
+
+
+
+
