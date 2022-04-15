@@ -5,7 +5,7 @@ Formulário básico feito em HTML e CSS com responsividade criado a partir das a
 
 ## 🎨 Layout
 
-![image](https://github.com/marianamoiolicapelari/tela-login-devclub/blob/main/ASSETS/telalogin.png)
+![image](https://github.com/marianamoiolicapelari/formulariodevclub/blob/main/imgform.png)
 
 ## 🛠 Tecnologias
 
@@ -16,7 +16,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 💡 Como executar o projeto
 
-Esse projeto foi elaborado para mobile. Para acessar basta clicar no link abaixo:
+Esse projeto foi elaborado para web. Para acessar basta clicar no link abaixo:
 
 https://testandoformulario.netlify.app
 
